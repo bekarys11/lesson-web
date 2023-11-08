@@ -8,8 +8,7 @@
     padding: 13px 14px;
 }
 
-@import "./header";
-@import "./hero";
+
 
 $main-black: #355070;
 $main-dark-brown: #6D597A;
@@ -17,7 +16,11 @@ $main-brown: #B56576;
 $main-light-brown: #E56B6F;
 $main-yellow: #EAAC8B;
 $main-bg: #FFE6D6;
+$secondary-black: #446381;
+$secondary-brown: #EB8382;
 
+@import "./header";
+@import "./hero";
 
 
 

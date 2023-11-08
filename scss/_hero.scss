@@ -1,0 +1,87 @@
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 54px;
+    gap: 30px;
+
+        .head {
+            display: flex;
+            align-items: center;
+
+            h4 {
+               margin-right: 2px; 
+               color: $secondary-black;
+               font-size: 23px;
+               font-weight: 500;
+            }
+
+            img {
+                margin-left: 29px;
+            }
+
+        }
+
+        .slogan {
+            font-size: 58px;
+            font-weight: bold;
+
+            h1:first-child {
+                color: $secondary-brown;
+            }
+
+            h1:last-child {
+                color: $secondary-black;
+            }
+        }
+        
+        .hero-txt {
+
+            &  * + * {
+                margin-top: 30px;
+            }
+            
+            p {
+                color: #826F8C;
+            }
+
+            button {
+                @include mainBtn;
+            }
+        }
+
+
+
+        .hero-img {
+            position: relative;
+
+            .card-vr {
+                background-color: rgba(255, 255,255, 0.4);
+                position: absolute;
+                left: -60px;
+
+                max-width: 211px;
+                max-height: 95px;
+                border-radius: 10px;
+                font-size: 10px;
+                display: flex;
+                padding: 10px;
+
+                & * + * {
+                    margin-top: 5px;
+                }
+
+                span {
+                    font-size: 8px;
+                }
+
+                p {
+                    color: $secondary-brown;
+                }
+                
+                h5 {
+                    color: $secondary-black;
+                }
+            }
+        }
+
+}
