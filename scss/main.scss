@@ -1,0 +1,43 @@
+@mixin mainBtn() {
+    font-size: 18px;
+    font-family: inherit;
+    color: white;
+    background: linear-gradient(#4499D9, #7367BE);
+    border: none;
+    border-radius: 100px;
+    padding: 13px 14px;
+}
+
+@import "./header";
+@import "./hero";
+
+$main-black: #355070;
+$main-dark-brown: #6D597A;
+$main-brown: #B56576;
+$main-light-brown: #E56B6F;
+$main-yellow: #EAAC8B;
+$main-bg: #FFE6D6;
+
+
+
+
+*, html, *::after, *::before {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    max-width: 1167px;
+    margin-inline: auto;
+    background-color: $main-bg;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+

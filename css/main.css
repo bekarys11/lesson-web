@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+.header-links {
+  margin-right: 55px;
+  display: flex;
+  grid-column: 5/span 4;
+  justify-content: space-between;
+}
+.header-links a {
+  text-decoration: none;
+  outline: none;
+  color: #446381;
+}
+.header-btn {
+  grid-column: span 2;
+  font-size: 18px;
+  font-family: inherit;
+  color: white;
+  background: linear-gradient(#4499D9, #7367BE);
+  border: none;
+  border-radius: 100px;
+  padding: 13px 14px;
+}
+
+.hero-btn {
+  font-size: 18px;
+  font-family: inherit;
+  color: white;
+  background: linear-gradient(#4499D9, #7367BE);
+  border: none;
+  border-radius: 100px;
+  padding: 13px 14px;
+}
+
+*, html, *::after, *::before {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1167px;
+  margin-inline: auto;
+  background-color: #FFE6D6;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}/*# sourceMappingURL=main.css.map */
